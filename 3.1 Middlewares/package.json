@@ -1,0 +1,15 @@
+{
+  "name": "week-3-middlewares",
+  "version": "1.0.0",
+  "description": "syntax :\r ``` \r function (req, res, next){\r     // do something with req,res;\r     next();\r }\r ```\r next() is required to call the other middlewares if exists or to move to further code flow.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "zod": "^3.23.8"
+  }
+}
